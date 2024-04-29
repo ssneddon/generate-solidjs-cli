@@ -1,6 +1,6 @@
 {
   "name": "generate-solidjs-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple SolidJs CLI to generate components instantly and more.",
   "repository": "https://github.com/ssneddon/generate-solidjs-cli",
   "bugs": "https://github.com/ssneddon/generate-solidjs-cli/issues",
