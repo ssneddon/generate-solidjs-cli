@@ -1,14 +1,14 @@
 {
-  "name": "generate-react-cli",
-  "version": "8.4.1",
-  "description": "A simple React CLI to generate components instantly and more.",
-  "repository": "https://github.com/arminbro/generate-react-cli",
-  "bugs": "https://github.com/arminbro/generate-react-cli/issues",
-  "author": "Armin Broubakarian",
+  "name": "generate-solidjs-cli",
+  "version": "1.0.0",
+  "description": "A simple SolidJs CLI to generate components instantly and more.",
+  "repository": "https://github.com/ssneddon/generate-solidjs-cli",
+  "bugs": "https://github.com/ssneddon/generate-solidjs-cli/issues",
+  "author": "William Samuel Sneddon",
   "license": "MIT",
-  "main": "bin/generate-react",
+  "main": "bin/generate-solidjs",
   "bin": {
-    "generate-react": "bin/generate-react.js"
+    "generate-solidjs": "bin/generate-solidjs.js"
   },
   "type": "module",
   "files": [
@@ -23,9 +23,9 @@
   },
   "keywords": [
     "cli",
-    "react",
+    "solidjs",
     "build-tools",
-    "generate-react-cli"
+    "generate-solidjs-cli"
   ],
   "engines": {
     "node": ">=10.x",
