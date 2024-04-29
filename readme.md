@@ -1,6 +1,11 @@
 # Generate SolidJS CLI
 
-[![License](https://img.shields.io/npm/l/express.svg)](//TODO add link to license)
+[![License](https://img.shields.io/npm/l/express.svg)](https://github.com/ssneddon/generate-solidjs-cli/blob/main/LICENSE)
+
+## Credit
+
+This is based entirely on [arminbro's](https://github.com/arminbro) - [generate-react-cli](https://github.com/arminbro/generate-react-cli) cli tool.
+I have made additions/edits to the code to specifically target the [SolidJS](https://www.solidjs.com/) library.
 
 ## Why?
 
