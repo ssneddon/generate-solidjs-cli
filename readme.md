@@ -32,6 +32,14 @@ _([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7
 
 When you run GSC within your project the first time, it will ask you a series of questions to customize the cli for your project needs (this will create a "generate-solidjs-cli.json" config file).
 
+### Please Note:
+
+**When you first run GSC, you will be asked the following question: _'Would you like to create a corresponding test file with each component you generate that uses the SolidJs Testing Library?'_**
+
+GSC presupposes that you have installed and are using the [SolidJs Testing Library](https://github.com/solidjs/solid-testing-library) and will generate a test file with an import reference to that library.
+
+If you wish to autogenerate a test file using GSC and do not want to configure a custom template for your testing files, as a prerequisite for using GSC **you must install the SolidJs Testing Library.**
+
 #### Example of the **generate-solidjs-cli.json** config file:
 
 ```json
@@ -441,4 +449,4 @@ Or it could be used to generate files with a naming convention with `Test`, `Con
 
 ## License
 
-Generate Solidjs CLI is an open source software [licensed as MIT](// TODO replace license link).
+Generate Solidjs CLI is an open source software [licensed as MIT](https://github.com/ssneddon/generate-solidjs-cli/blob/main/LICENSE).
