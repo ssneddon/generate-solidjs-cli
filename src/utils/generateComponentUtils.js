@@ -144,7 +144,7 @@ function componentTemplateGenerator({ cmd, componentName, cliConfigFile, convert
     // --- Else use GSC built-in component template
 
     template = usesTypeScript ? componentTsTemplate : componentJsTemplate;
-    filename = usesTypeScript ? `${componentName}.tsx` : `${componentName}.js`;
+    filename = usesTypeScript ? `index.tsx` : `index.js`;
 
     // --- If test library is not Testing Library or if withTest is false. Remove data-testid from template
 
